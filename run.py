@@ -67,3 +67,5 @@ def play_again():
             print("Please type 'yes' or 'no'")
             continue
 
+print("-----RESULT!-----")
+print("You got " + str(score) + " / 10 correct!\n")
