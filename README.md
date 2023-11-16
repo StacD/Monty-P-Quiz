@@ -13,7 +13,7 @@ The quiz is designed for users that like the comedic team known as Monty Python 
 <li>The computer will automatically reveal the next question.</li>
 <li>Once at the end of the game the user can see their results and choose
 if they would like another try or to end the quiz.</li>
-<ol>
+</ol>
 
 ## Features
 <ol>
@@ -22,8 +22,29 @@ if they would like another try or to end the quiz.</li>
 <li>Once the user has confirmed their answer with enter the result will be displayed to the user and the next question will appear below ready for them to answer.</li>
 <li>When the user gets to the end of the quiz their results will show giving them a score out of the total amount of questions.</li>
 <li>The user is asked after their results if they would like to play again. They can input ‘yes’ and the quiz will restart or ‘no’ and a ‘Thank you for playing message’ will show ending the quiz. If the user inputs anything other than ‘yes’ or ‘no’ and error message will show asking the user to enter either ‘yes’ or ‘no’.</li>
-<ol>
+</ol>
 
 ## Design Considerations
 
 Given features intended within the game external libraries not required as native code is sufficient to support the required functionality.
+
+## Test Cases
+
+### On start of quiz welcome banner will be displayed.
+
+### Game rules will be displayed and readable:
+<li>Use of break lines and correct grammar i.e uppercase.</li>
+
+### On user input of answer the game will validate and display:
+<li>Correct Answer : Comparing user input to defined answer and increment current score by 1.</li>
+<li>Incorrect Answer : Where user input is in defined list of available values but not correct.</li>
+<li>Invalid Input: Where user input is not in defined list of available values.</li>
+<li>After evaluation present user with the next question.</li>
+
+### The score is incremented after each correct answer:
+<li>Ensure that correct answers entered equals the returned final score.</li>
+
+### Replay feature options:
+<li>If user selects yes game will restart and score will be reset to zero.</li>
+<li>If user selects no game will terminate and a thank you message will be displayed to the user.</li>
+<li>If the user inputs any value other than yes/no the question will be presented again.</li>
