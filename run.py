@@ -16,3 +16,15 @@ questions = ("Nobody expects what historic event?\n",
     "What Python musical debuted on Broadway in 2005?\n",
     "Monty Python & the Holy Grail was shot mostly in what country?\n"
     )
+
+options = (("A. The Spanish Inquisition", "B. The Plague", "C. The Ice Age"),
+           ("A. A heated discussion", "B. An argument", "C. A fight"),
+           ("A. Life of Brian", "B. The Meaning of Life", "C. The Holy Grail"),
+           ("A. Terry Gilliam", "B. Michael Palin", "C. John Cleese"),
+           ("A. The Goons", "B. Monty Pythons Flying Circus", "C. Q8"),
+           ("A. Monty Python!", "B. The Holy Grail", "C. The Meaning of Life"),
+           ("A. Spam", "B. Ham", "C. Corn Beef"),
+           ("A. The Holy Grail", "B. Python One", "C. Life of Brian"),
+           ("A. Bright Side of Life", "B. Spamalot", "C. Life of Brian"),
+           ("A. Wales", "B. Scotland", "C. France")
+           )
