@@ -5,6 +5,9 @@ print("Welcome to this Monty Python Quiz!\n")
 print("Select A, B or C for your answer then press enter.\n")
 print("First answer only is accepted!\n")
 
+"""
+Questions list
+"""
 questions = (
     "Nobody expects what historic event?\n",
     "Michael Palin seeks out John Cleese to have what type of conflict?\n",
@@ -17,7 +20,9 @@ questions = (
     "What Python musical debuted on Broadway in 2005?\n",
     "Monty Python & the Holy Grail was shot mostly in what country?\n"
     )
-
+"""
+2 wrong answers and the correct answer
+"""
 options = (("A. The Spanish Inquisition", "B. The Plague", "C. The Ice Age"),
            ("A. A heated discussion", "B. An argument", "C. A fight"),
            ("A. Life of Brian", "B. The Meaning of Life", "C. The Holy Grail"),
@@ -30,9 +35,17 @@ options = (("A. The Spanish Inquisition", "B. The Plague", "C. The Ice Age"),
            ("A. Wales", "B. Scotland", "C. France")
            )
 
+"""
+Variables storing the correct answers, guesses and score
+"""
 answers = ("A", "B", "A", "C", "B", "C", "A", "C", "B", "B")
 guesses = []
 score = []
+
+"""
+Function for quiz to start, revealing question and answers,
+incrementing score and validating input.
+"""
 
 
 def play_quiz():
@@ -58,6 +71,11 @@ def play_quiz():
 
     print("-----RESULT!-----")
     print("You got " + str(score) + " / 10 correct!\n")
+
+
+"""
+Function for offering replay of quiz.
+"""
 
 
 def play_again():
