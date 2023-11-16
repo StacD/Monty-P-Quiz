@@ -69,3 +69,9 @@ def play_again():
 
 print("-----RESULT!-----")
 print("You got " + str(score) + " / 10 correct!\n")
+
+play_quiz()
+
+while play_quiz():
+    play_quiz()
+    
