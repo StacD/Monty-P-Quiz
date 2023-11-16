@@ -19,9 +19,20 @@ if they would like another try or to end the quiz.</li>
 
 <li>Within the quiz there is a welcome message that shows at the very top letting users know that they are about to take a quiz on Monty Python.</li>
 <li>There are also instructions letting the user know to enter their answer using a, b or c and then press enter to confirm their selection.</li>
+
+![Beginning screen Screenshot](images/feature-1-2-screenshot.JPG)
+
 <li>Once the user has confirmed their answer with enter the result will be displayed to the user and the next question will appear below ready for them to answer.</li>
+
+![Next answer Screenshot](images/feature-3-screenshot.JPG)
+
 <li>When the user gets to the end of the quiz their results will show giving them a score out of the total amount of questions.</li>
+
+![Score Screenshot](images/feature-4-screenshot.JPG)
+
 <li>The user is asked after their results if they would like to play again. They can input ‘yes’ and the quiz will restart or ‘no’ and a ‘Thank you for playing message’ will show ending the quiz. If the user inputs anything other than ‘yes’ or ‘no’ and error message will show asking the user to enter either ‘yes’ or ‘no’.</li>
+
+![Replay Screenshot](images/feature-5-screenshot.JPG)
 
 ## Design Considerations
 
