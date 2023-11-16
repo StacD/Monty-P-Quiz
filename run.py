@@ -32,3 +32,9 @@ options = (("A. The Spanish Inquisition", "B. The Plague", "C. The Ice Age"),
 answers = ("A", "B", "A", "C", "B", "C", "A", "C", "B", "B")
 guesses = []
 score = []
+
+
+def play_quiz():
+
+
+def play_again():
