@@ -48,6 +48,11 @@ def play_quiz():
             print("\nCorrect!")
         elif guess != answers[question_num] and guess in (answers):
             print("\nIncorrect")
+        else:
+            guess not in (answers)
+            print("Invalid input, please select A, B, C")
+        question_num += 1
+        continue
 
 
 def play_again():
