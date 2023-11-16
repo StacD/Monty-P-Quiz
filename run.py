@@ -41,6 +41,11 @@ def play_quiz():
         print("--------------------")
     for option in options[question_num]:
         print(option)
+    guess = input("\nEnter (A, B or C): ").upper()
+        guesses.append(guess)
+        if guess == answers[question_num]:
+            score += 1
+            print("\nCorrect!")
 
 
 def play_again():
