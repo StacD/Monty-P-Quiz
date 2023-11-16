@@ -46,6 +46,8 @@ def play_quiz():
         if guess == answers[question_num]:
             score += 1
             print("\nCorrect!")
+        elif guess != answers[question_num] and guess in (answers):
+            print("\nIncorrect")
 
 
 def play_again():
