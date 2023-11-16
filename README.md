@@ -1,10 +1,10 @@
 # Monty Python Quiz
 
-Welcome to a [Monty Python Quiz!]()
+Welcome to a [Monty Python Quiz!](https://monty-python-quiz-3841b1210582.herokuapp.com/)
 
 The quiz is designed for users that like the comedic team known as Monty Python and can test their knowledge in this 10-question quiz.
 
-![Start screen]()
+![Start screen](images/main-screen-screenshot.JPG)
 
 ## How to play
 <ol>
