@@ -1,3 +1,8 @@
-# Your code goes here.
-# You can delete these comments, but do not change the name of this file
-# Write your code to expect a terminal of 80 characters wide and 24 rows high
+"""
+Welcome Message.
+"""
+print("Welcome to this Monty Python Quiz!\n")
+print("Select A, B or C for your answer then press enter.\n")
+print("First answer only is accepted!\n")
+
+questions = ()
