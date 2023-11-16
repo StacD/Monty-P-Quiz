@@ -35,6 +35,12 @@ score = []
 
 
 def play_quiz():
+    question_num = 0
+    score = 0
+    for question in questions:
+        print("--------------------")
+    for option in options[question_num]:
+        print(option)
 
 
 def play_again():
