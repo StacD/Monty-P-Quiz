@@ -52,7 +52,12 @@ Given features intended within the game external libraries not required as nativ
 
 ### Solved Bugs
 
-The PEP8 validator showed an error within my questions list, the first question needed to be moved down to line 9.
+<li>The results where not loading at the end of the quiz as i had placed the code in outside the play game function. Once 
+included in the function they returned at the end of the quiz as expected.</li>
+
+![Results positioning Error Screenshot](images/results-position-error.JPG)
+
+<li>The PEP8 validator showed an error within my questions list, the first question needed to be moved down to line 9.</li>
 
 ![PEP8 Error Screenshot](images/PEP8-errors.JPG)
 
