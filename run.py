@@ -28,3 +28,7 @@ options = (("A. The Spanish Inquisition", "B. The Plague", "C. The Ice Age"),
            ("A. Bright Side of Life", "B. Spamalot", "C. Life of Brian"),
            ("A. Wales", "B. Scotland", "C. France")
            )
+
+answers = ("A", "B", "A", "C", "B", "C", "A", "C", "B", "B")
+guesses = []
+score = []
