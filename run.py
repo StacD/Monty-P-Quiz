@@ -58,7 +58,7 @@ def play_quiz():
 def play_again():
     while True:
         user_response = input.guess("Would you like to try again? (yes / no): ")
-        if user_response == "yes"
+        if user_response == "yes":
             return True
         elif user_response == "no"
             print("\nThankyou for playing. Have a nice day!")
