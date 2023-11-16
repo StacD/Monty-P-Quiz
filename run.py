@@ -5,7 +5,8 @@ print("Welcome to this Monty Python Quiz!\n")
 print("Select A, B or C for your answer then press enter.\n")
 print("First answer only is accepted!\n")
 
-questions = ("Nobody expects what historic event?\n",
+questions = (
+    "Nobody expects what historic event?\n",
     "Michael Palin seeks out John Cleese to have what type of conflict?\n",
     "“He’s not the Messiah, he’s a very naughty boy.” Comes from what film?\n",
     "Which Monty Python member appears in the Harry Potter films?\n",
@@ -39,6 +40,7 @@ def play_quiz():
     score = 0
     for question in questions:
         print("--------------------")
+        print(question)
     for option in options[question_num]:
         print(option)
         guess = input("\nEnter (A, B or C): ").upper()
@@ -54,6 +56,9 @@ def play_quiz():
         question_num += 1
         continue
 
+    print("-----RESULT!-----")
+    print("You got " + str(score) + " / 10 correct!\n")
+
 
 def play_again():
     while True:
@@ -67,10 +72,9 @@ def play_again():
             print("Please type 'yes' or 'no'")
             continue
 
-print("-----RESULT!-----")
-print("You got " + str(score) + " / 10 correct!\n")
 
 play_quiz()
+
 
 while play_again():
     play_quiz()
