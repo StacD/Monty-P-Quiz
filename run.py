@@ -72,5 +72,5 @@ print("You got " + str(score) + " / 10 correct!\n")
 
 play_quiz()
 
-while play_quiz():
+while play_again():
     play_quiz()
