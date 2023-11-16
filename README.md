@@ -70,7 +70,7 @@ I have deployed my site using Heroku.
 ## Validator Testing
 
 I tested my code in PEP8 which returned no errors.
-![PEP8 Screenshot](Monty-P-Quiz/images/PEP8_validation _screenshot.JPG)
+![PEP8 Screenshot](images/pngPEP8_validation _screenshot.png)
 
 ## Credits
 
