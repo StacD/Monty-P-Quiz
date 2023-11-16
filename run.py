@@ -62,7 +62,7 @@ def play_quiz():
 
 def play_again():
     while True:
-        user_response = input.guess("Would you like to try again? (yes / no): ")
+        user_response = input("Would you like to try again? (yes / no): ")
         if user_response == "yes":
             return True
         elif user_response == "no":
