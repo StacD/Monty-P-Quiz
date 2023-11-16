@@ -52,8 +52,11 @@ Given features intended within the game external libraries not required as nativ
 
 ### Solved Bugs
 
-<li>The results where not loading at the end of the quiz as i had placed the code in outside the play game function. Once 
-included in the function they returned at the end of the quiz as expected.</li>
+<li>The questions were not loading. This was because when calling the play_quiz function I had type play_again by mistake.</li>
+
+![Questions not loading Error Screenshot](images/results-position-error.JPG)
+
+<li>The results where not loading at the end of the quiz as i had placed the code in outside the play game function. Once included in the function they returned at the end of the quiz as expected.</li>
 
 ![Results positioning Error Screenshot](images/results-position-error.JPG)
 
