@@ -52,6 +52,10 @@ Given features intended within the game external libraries not required as nativ
 
 ### Solved Bugs
 
+The PEP8 validator showed an error within my questions list, the first question needed to be moved down to line 9.
+
+![PEP8 Error Screenshot](images/PEP8-errors.JPG)
+
 ### Unfixed Bugs
 No bugs present in code.
 <li>A future feature I would like to include would be to categorized the questions into sub-topics i.e. movie/actor related questions.</li>
