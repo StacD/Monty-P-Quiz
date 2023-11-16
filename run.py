@@ -52,7 +52,7 @@ def play_quiz():
             print("\nIncorrect")
         else:
             guess not in (answers)
-            print("Invalid input, please select A, B, C")
+            print("Invalid input, please remember to only select A, B, C")
         question_num += 1
         continue
 
