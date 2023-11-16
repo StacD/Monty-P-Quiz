@@ -71,7 +71,7 @@ I have deployed my site using Heroku.
 
 I tested my code in PEP8 which returned no errors.
 
-![PEP8 Screenshot](images/pngPEP8_validation _screenshot.png)
+![PEP8 Screenshot](images/PEP8-validation-screenshot.JPG)
 
 ## Credits
 
