@@ -41,8 +41,8 @@ def play_quiz():
     for question in questions:
         print("--------------------")
         print(question)
-    for option in options[question_num]:
-        print(option)
+        for option in options[question_num]:
+            print(option)
         guess = input("\nEnter (A, B or C): ").upper()
         guesses.append(guess)
         if guess == answers[question_num]:
